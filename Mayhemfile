@@ -1,5 +1,5 @@
 # Namespaced project name that the target belongs to
-project: jbgreenh/miniaudio
+project: miniaudio-test
 
 # Target name (should be unique within the project)
 target: ehw
