@@ -13,7 +13,7 @@ ENV CC clang
 ENV CC_FOR_BUILD clang
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
-RUN clang ./examples/fuzz_custom_decoder.c -o ./ehw -fsanitize=fuzzer -ldl -lm -lpthread 
+RUN clang ./examples/fuzz_engine.c -o ./ehw -fsanitize=fuzzer -ldl -lm -lpthread 
 #RUN clang ./examples/engine_hello_world.c -o ./ehw -ldl -lm -lpthread 
 
 # Package Stage
